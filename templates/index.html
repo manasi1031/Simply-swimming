@@ -2,17 +2,71 @@
 
 {% block content %}
 
-<div class="container-fluid">
-    <div class="row">
+<!-- Header text -->
+<div class="hero-container">
+    <img class="hero-picture" src="" alt="Hero Picture">
+    <div class="hero-header">
+        <h2>SWIM AND PLAY</h2>
 
-        <!-- Blog Entries Column -->
+        <a href="{% url 'appointment' %}" class="btn btn-primary">Book an Appointment</a>
+    </div>
+</div> 
+
+<!--Main page about information--> 
+<div class="container-fluid text-center">
+    <h3 class="pt-3">Providing excellent swimming tuition tailored to everyones needs in Ockendon.</h3>
+    <p>Whether you are looking for motivating groups or private one to ones,
+        Simply Swimming offers a variety of lessons to cater for everyone.
+    </p>
+</div>
+<hr>
+
+<!-- Courses display -->
+<div class="container-fluid">
+    <h3 class="text-center">Available courses:</h3>
+    <div class="row">
         <div class="col-12 mt-3 left">
             <div class="row">
-
+                {% for course in course_list %}
+                    <div class="col-md-4">
+                        <div class="card mb-4 coursecard">
+                            <div class="card-body">
+                                <a href="{% url 'course_detail' course.slug %}" class="course-link">
+                                    <div class="image-container">
+                                        {% if "placeholder" in course.image.url %}
+                                        <img class="card-img-top" src="">
+                                        {% else %}
+                                        <img class="card-img-top" src="{{ course.image.url }}" alt="">
+                                        {% endif %}
+                                    </div>
+                                    <h3 class="card-title">{{ course.course_name }}</h3>
+                                    <p class="card-text">{{ course.excerpt }}</p>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                {% if forloop.counter|divisibleby:3 %}
+                <div>
+                <div class="row">
+                {% endif %}
+                {% endfor %}
+                </div>
             </div>
         </div>
     </div>
+    {% if is_paginated %}
+    <nav aria-label="Page navigation">
+        <ul class="pagination justify-content-center">
+            {% if page_obj.has_previous %}
+            <li><a href="?page={{ page_obj.previous_page_number }}" class="page-link">&laquo; PREV </a></li>
+            {% endif %}
+            {% if page_obj.has_next %}
+            <li><a href="?page={{ page_obj.next_page_number }}" class="page-link"> NEXT &raquo;</a></li>
 
+            {% endif %}
+        </ul>
+    </nav>
+    {% endif %}
 </div>
 
 {%endblock%}
