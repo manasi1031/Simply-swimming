@@ -6,3 +6,4 @@ from .models import Appt
 
 class HomeTemplateView(TemplateView):
     template_name = 'index.html'
+
