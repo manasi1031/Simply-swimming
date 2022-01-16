@@ -1,108 +1,298 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# Milestone Project 4
+---------
+# Simply Swimming
 
-Welcome Manasi Paradkar,
+![Mockup Image]()
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. It's perfectly ok to use this template as the basis for your project submissions.
+## Purpose
+---
+This site has been designed as a Full-Stack site based on business logic used to control a centrally-owned dataset. This is the fourth milestone project in my academic schedule with the Code Institute. 
 
-You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use. Some of this information has been updated since the video content was created. The last update to this file was: **September 1, 2021**
-
-## Gitpod Reminders
-
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
-
-`python3 -m http.server`
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
-
-A blue button should appear to click: _Make Public_,
-
-Another blue button should appear to click: _Open Browser_.
-
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
-
-To log into the Heroku toolbelt CLI:
-
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
-
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidentally make it public then you can create a new one with _Regenerate API Key_.
-
-------
-
-## Release History
-
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
-
-**September 1 2021:** Remove `PGHOSTADDR` environment variable.
-
-**July 19 2021:** Remove `font_fix` script now that the terminal font issue is fixed.
-
-**July 2 2021:** Remove extensions that are not available in Open VSX.
-
-**June 30 2021:** Combined the P4 and P5 templates into one file, added the uptime script. See the FAQ at the end of this file.
-
-**June 10 2021:** Added: `font_fix` script and alias to fix the Terminal font issue
-
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
-
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
-
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
-
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
-
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
-
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
-
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
-
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
-
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
-
-------
-
-## FAQ about the uptime script
-
-**Why have you added this script?**
-
-It will help us to calculate how many running workspaces there are at any one time, which greatly helps us with cost and capacity planning. It will help us decide on the future direction of our cloud-based IDE strategy.
-
-**How will this affect me?**
-
-For everyday usage of Gitpod, it doesn’t have any effect at all. The script only captures the following data:
-
-- An ID that is randomly generated each time the workspace is started.
-- The current date and time
-- The workspace status of “started” or “running”, which is sent every 5 minutes.
-
-It is not possible for us or anyone else to trace the random ID back to an individual, and no personal data is being captured. It will not slow down the workspace or affect your work.
-
-**So….?**
-
-We want to tell you this so that we are being completely transparent about the data we collect and what we do with it.
-
-**Can I opt out?**
-
-Yes, you can. Since no personally identifiable information is being captured, we'd appreciate it if you let the script run; however if you are unhappy with the idea, simply run the following commands from the terminal window after creating the workspace, and this will remove the uptime script:
-
-```
-pkill uptime.sh
-rm .vscode/uptime.sh
-```
-
-**Anything more?**
-
-Yes! We'd strongly encourage you to look at the source code of the `uptime.sh` file so that you know what it's doing. As future software developers, it will be great practice to see how these shell scripts work.
-
+## Information about project: 
 ---
 
-Happy coding!
+TO ADD HERE
+
+## [View live website here]()
+
+---------
+
+## Table of Contents
+---
+- [UX](#ux)
+    - [Goals](#goals)
+        - [Vision](#vision)
+        - [Aim](#aim)
+        - [Target Audience](#target-audience)
+        - [User Stories](#user-stories)
+    - [Structure of the Website](#structure-of-the-website)
+        - [Design](#design)
+        - [Typography](#typography)
+        - [Color Scheme](#color-scheme)
+        - [Wireframes](#wireframes)
+        - [Images](#images)
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Testing](#testing)
+    - [Functionality Testing](#functionality-testing)
+    - [Compatibility Testing](#compatibility-testing)
+    - [User Testing Stories](#user-testing-stories)
+    - [Code Validation](#code-validation)
+    - [Issues found during deployment](#issues-found-during-deployment)
+    - [Performance Testing](#performance-testing)
+- [Deployment](#deployment)
+- [Credits](#credits)
+- [Screen Shots](#screen-shots)
+
+---------
+## UX
+---
+### Goals
+---
+TO ADD
+
+#### Vision 
+
+TO ADD
+
+#### Aim
+
+TO ADD
+
+#### Target Audience 
+
+TO ADD
+
+#### User Stories
+
+##### Visitors Or Users:
+
+- I want to know where the swimming class is located.
+- I want to see what kind of services the swimming class offers.
+- I want to be able to book an appointment. 
+- I want to be able to cancel an appointment. 
+- I want to know a bit more about the company / trainers. 
+- I want to be able to contact the company with random questions. 
+- I want to get a confirmation email with my appointment time. 
+
+##### Site Owner:
+
+- I want to show where the swimming class is located. 
+- I want to let people see the services we offer with prices.
+- I want to make it easy for customer to make an appointment. 
+- I want to get an email when someone makes a new booking. 
+- I want to be able to confirm appointments.
+- I want to be able to cancel appointments.
+- I want to be able to change an appointment date. 
+- I want to have a clear overview of the customers details. 
+- I want to be able to get email from customers through a contact form with any random questions.
+
+[Back to Table of Contents](#table-of-contents)
+
+----------
+### Structure of the website
+---
+
+#### Design
+
+TO ADD
+
+#### Typography
+
+TO ADD
+
+#### Color scheme
+
+I used the palette maker from the [Coolors](https://coolors.co/image-picker) website based on the hero image chosen for the index.html page. 
+
+This palette has been derived from the hero image and a [visual representation]()
+
+Colors chosen are either direct colors or in the palette shades to give a better effect as below: 
+- HTML Background: #
+- HTML Body: #
+- All Headings: #
+
+[Click here to view Color Palette]() 
+
+#### Wireframes
+
+Balsamiq has been used to create wireframes for this project.
+
+- [Wireframes overview pdf file]()
+TO ADD MORE
+
+#### Images
+
+I have mentioned in detail regarding images in the credits section. 
+
+[Back to Table of Contents](#table-of-contents)
+
+--------
+
+### Features
+---
+
+The website consists of 6 pages. Five are accessible from a navigation menu and one is a 404 error page. 
+
+#### The website has below features:
+
+TO ADD
+
+#### Features Left to Implement and will be in future versions:
+
+- Make payments online.
+- A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking. 
+
+-------
+### Technologies Used
+---------
+
+Languages used:
+
+- HTML5:  Used to write the structure of the website.
+
+- CCS3: Used to style the website.
+
+- Javascript: Used to allow users to interact with web pages.
+
+- Google fonts: Used as a font resource.
+
+- Font Awesome: Used as an icon library for social links.
+
+- Balsamiq: Used to create wireframes.
+
+- Git: Used as a version control system tracking.
+
+- Gitpod: Used as a hosting platform.
+
+- Github: Used as a platform to keep project in a remote server.
+
+- Google Chrome DevTools: Used for testing responsiveness and solving any problems.
+
+- HTML Validator: Used for validating HTML code.
+
+- CSS Validator: Used for validating CSS code.
+
+- [Techsini website](https://techsini.com/) to create a visual mockup of the site.
+
+- [PNG to JPG](https://png2jpg.com/) to convert png files to jpg.
+
+- [Image Resizer](https://resizeimage.net/) to resize images to fit screen.
+
+- [Favicon Generator](https://favicon.io/favicon-generator/) to generate favicon for website.
+
+[Back to Table of Contents](#table-of-contents)
+
+--------
+
+### Testing 
+--------
+
+#### Functionality Testing:
+
+I used Google Chrome DevTools to check the responsiveness of the web page on different devices and rectified problems accordingly.
+
+#### Compatibility testing:
+
+Site was tested in various devices on the Google chrome DevTools, however apart from this, physically checked in Moto G4, Redmi Note 5 Pro, Ipad Air, Ipad Air2 and Iphone 11 for different software's.
+
+#### User Testing Stories:
+
+TO ADD
+
+#### Code Validation:
+
+At the and of the project I used the below websites to validate the codes:
+- [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS.
+- [W3C Html Validator](https://validator.w3.org/) to test HTML.
+- [JavaScript Validator](https://jshint.com/) to test javascript.
+
+#### Issues found during deployment:
+
+TO ADD
+
+#### Performance Testing:
+
+I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
+
+TO ADD
+
+[Back to Table of Contents](#table-of-contents)
+
+
+----------
+
+### Deployment
+----------
+
+The project was deployed on GitHub Pages. I used Gitpod as a development environment where I commited all changes to git version control system. I used push command in Gitpod to save changes into GitHub.
+
+#### To deploy a project I had to:
+The project was deployed to GitHub Pages using the following steps, I used Gitpod as a development environment where I commited all changes to git version control system. I used the push command in Gitpod to save changes into GitHub. 
+Deployment to Heroku 
+Before creating a Heroku app make sure your project has these two files: 
+- requirements.txt - You can create one by usingpip3 freeze --local > requirements.txt 
+- Procfile - You can create one by using echo web:python run.py > Procfile 
+
+Create application: 
+   1. Navigate to Heroku's sitehere. (Note: Right click on link to open a new tab). 
+   2. Register and/or Login as applicable. 
+   3. Click on the new button in the top right and select "Create new app". 
+   4. Enter the app name and region closest to you. 
+   5. Click the create app button. 
+
+Set environment variables: 
+   1. Click on the settings tab and then click "Reveal config vars". 
+   2. Config variables added throughout project: (add image of variables) 
+
+Setting up database in deployment 
+   1. Temporarily add theDATABASE_URLtosettings.py: 
+      DATABASES = { 'default': dj_database_url.parse('your_postgres_database_url') } 
+   2. Migrate the data from development to production version. 
+       To migrate the database models in the project to the Postgres database you can use the following command: python3 manage.py migrate 
+   3. You will then need a superuser for the Postgres database too. To create one you can use the
+        following command: python3 manage.py createsuperuser 
+   4. Remove the Postgres database URL from settings.py as this should not in any case be deployed to 
+        GitHub for security reasons. 
+   5. To connect your Heroku app to be deployed from a Github repository, you can follow these steps: 
+       - Open the heroku app page on the deploy tab and select GitHub - Connect to GitHub. 
+       - Sign into GitHub if not already. 
+       - A prompt to find a Github repository to connect to will then be displayed. 
+       - Enter the repository name for the project and click search. 
+       - Once the repository has been found, click the connect button. 
+   6. Once you have your GitHub repository connected, without leaving deploy tab: 
+       - Under Automatic deploys section, choose the branch you want to deploy from and then click the "Enable Automatic Deploys" button. 
+       - To deploy your app to Heroku click the "Deploy Branch" button. 
+
+[Back to Table of Contents](#table-of-contents)
+
+-------
+
+### Credits
+-----
+
+#### Content
+
+TO ADD
+
+#### Media
+
+All images obtained are non-copyrighted and can be used freely from [Pixabay](https://pixabay.com/)
+
+### Acknowledgements
+
+I could not have done this project without the guidance and confidence of my mentor - Adegbenga Adeye.
+
+Last but not the least, I would like to thank [Code Institute](https://codeinstitute.net/) for their support.
+
+[Back to Table of Contents](#table-of-contents)
+
+------
+
+## Screen Shots
+
+![Home page Laptop view Screenshot]()
+
+
+
+
