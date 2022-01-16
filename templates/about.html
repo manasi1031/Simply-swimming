@@ -36,22 +36,32 @@
 </div>   
 
 <!--Coaches or team info-->
-<div class="bg-light py-5">
+<div class="bg-light py-2">
     <div class="container py-5">
         <div class="row mb-4">
             <div class="col-lg-5">
-                <h2 class="display-4 font-weight-light">Our team</h2>
+                <h2 class="display-4 font-weight-light">Our Team</h2>
                 <p class="font-italic text-muted">Please meet our Elite team of coaches.</p>
             </div>
         </div>
         <div class="card m-3 col-10 mx-auto">
             <div class="row no-gutters">
+                {% for coach in coach_list %}
                 <div class="col-md-2">
+                {% if "placeholder" in coach.profile_image.url %}
+                    <img class="img-thumbnail" src="" alt="coach_image">
+                {% else %}
+                    <img class="img-thumbnail" src="{{ coach.profile_image.url }}" alt="">
+                {% endif %}
                 </div>
                 <div class="col-md-10">
                     <div class="card-body">
+                        <h5 class="card-title">{{ coach.coach_name }}</h5>
+                        <p class="card-text">{{ coach.title }}</p>
+                        <p class="card-text">{{ coach.about }}</p>
                     </div>
                 </div>
+                {% endfor %}
             </div>
         </div>
         <!-- End-->
