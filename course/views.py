@@ -31,6 +31,6 @@ class CourseDetail(View):
             request,
             "courses.html",
             {
-                "course": course,
+                "course": courses,
             }
         )

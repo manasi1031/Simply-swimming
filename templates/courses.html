@@ -31,9 +31,11 @@
 <div class="bg-light py-5">
     <div class="container py-5 text-center">
         <!--course title-->
-        <h1>Add title</h1>
+        <h1 class="text-center">{{ course.course_name }}</h1>
         <!--course content-->
-        <p>content</p>
+        <div class="col-lg-8 container text-center border border-1 px-4 py-2 mb-2">
+            {{ course.content | safe }}
+        </div>
     </div>
 </div>
 
