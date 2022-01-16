@@ -27,10 +27,4 @@ class CourseDetail(View):
         queryset = Course.objects.filter(status=1)
         course = get_object_or_404(queryset, slug=slug)
 
-        return render(
-            request,
-            "courses.html",
-            {
-                "course": courses,
-            }
-        )
+        return render(request, 'courses.html', {'course': course})
