@@ -7,3 +7,4 @@ from .models import Appt
 class PostAdmin(SummernoteModelAdmin):
 
     summernote_fields = ('request')
+

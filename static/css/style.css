@@ -2,3 +2,16 @@ body {
     background-color: #D2CF43;
 }
 
+/* Hero Image and Cover */
+.hero-cover {
+    height: auto;
+    background-color: rgb(2, 2, 2);
+    border-bottom: solid black 1px;
+}
+
+.hero-image {
+    width: 100%;
+    height: auto;
+    opacity: 0.9;
+    background: cover center no-repeat;
+}
