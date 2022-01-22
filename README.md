@@ -68,7 +68,8 @@ TO ADD
 ##### Visitors Or Users:
 
 - I want to know where the swimming class is located.
-- I want to see what kind of services the swimming class offers.
+- I want to know the hours that the location is open.
+- I want to see what kind of courses the swimming class offers.
 - I want to be able to book an appointment. 
 - I want to be able to cancel an appointment. 
 - I want to know a bit more about the company / trainers. 
@@ -78,7 +79,7 @@ TO ADD
 ##### Site Owner:
 
 - I want to show where the swimming class is located. 
-- I want to let people see the services we offer with prices.
+- I want to let people see the courses we offer.
 - I want to make it easy for customer to make an appointment. 
 - I want to get an email when someone makes a new booking. 
 - I want to be able to confirm appointments.
