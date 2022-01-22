@@ -20,8 +20,13 @@
 <div class="bg-white py-5">
     <div class="container py-5">
         <div class="row align-items-center mb-5">
-            <div class="img-fluid w-100">
+            <div class="img-fluid">
                 <!--add image here for class-->
+                {% if "placeholder" in course.image.url %}
+                <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204666/Simply-Swimming/kids-swimming3_xsqxu4.png">
+                {% else %}
+                <img src="{{ course.image.url }}">
+                {% endif %}
             </div>
         </div>
     </div> 
