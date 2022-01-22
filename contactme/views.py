@@ -6,7 +6,7 @@ from django.contrib import messages
 from .forms import ContactForm
 
 
-def contactme(request):
+def contact(request):
     """Contactme app view for submission of form"""
     if request.method == 'GET':
         form = ContactForm()
