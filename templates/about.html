@@ -46,22 +46,16 @@
         </div>
         <div class="card m-3 col-10 mx-auto">
             <div class="row no-gutters">
-                {% for coach in coach_list %}
-                <div class="col-md-2">
-                {% if "placeholder" in coach.profile_image.url %}
-                    <img class="img-thumbnail" src="https://res.cloudinary.com/manasi1031/image/upload/v1642371921/Simply-Swimming/coach-1_r4dw0o.jpg" alt="coach_image">
-                {% else %}
-                    <img class="img-thumbnail" src="{{ coach.profile_image.url }}" alt="">
-                {% endif %}
+                
+                <div class="col-md-2 center-block ">
+                image
                 </div>
                 <div class="col-md-10">
                     <div class="card-body">
-                        <h5 class="card-title">{{ coach.coach_name }}</h5>
-                        <p class="card-text">{{ coach.title }}</p>
-                        <p class="card-text">{{ coach.about }}</p>
+                        card body
                     </div>
                 </div>
-                {% endfor %}
+
             </div>
         </div>
         <!-- End-->
