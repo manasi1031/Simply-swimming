@@ -6,8 +6,8 @@
 
 <!--Topic Heading with image-->
 <div class="bg-light">
-    <div class="container py-5">
-        <div class="row h-100 align-items-center py-5">
+    <div class="container py-2">
+        <div class="row h-100 align-items-center py-2">
             <div class="col-lg-6">
                 <h1 class="display-4">Contact us page</h1>
             </div>
@@ -19,11 +19,11 @@
 </div>
 
 <!--Contact us Info-->
-<div class="bg-white py-2">
+<div class="py-2">
     <div class="container py25">
         <div class="row align-items-center mb-5">
-            <div class="col-lg-6 order-2 order-lg-1"><i class="fa-solid fa-water-ladder"></i>
-                <p class="text-center mt-2 mb-1">Feel free to ask a question or just give us some feedback or pop us a message!</p>
+            <div>
+                <h4 class="text-center mt-2">Feel free to ask a question or just give us some feedback or pop us a message!</h4>
             </div>
         </div>
     </div> 
@@ -31,7 +31,7 @@
 
 <!--Contact form-->
 <div class="bg-light py-2">
-    <div class="container py-2">
+    <div class="container py-2 bg-secondary">
         <form id="form" method="post" class="mt-2">
             {{ form|crispy }}
             {% csrf_token %}
