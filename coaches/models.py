@@ -8,7 +8,8 @@ STATUS = ((0, "Inactive"), (1, "Active"))
 
 class Coach(models.Model):
     """Coach Model"""
-    coach_name = models.CharField(primary_key=True, max_length=200, unique=True)
+    coach_name = models.CharField(
+        primary_key=True, max_length=200, unique=True)
     email = models.EmailField()
     profile_image = CloudinaryField('image', default='placeholder')
     title = models.CharField(max_length=100)
