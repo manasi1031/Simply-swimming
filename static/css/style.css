@@ -18,3 +18,25 @@ body {
     background: cover center no-repeat;
 }
 
+/* Course in index.html CSS specific */
+.link-course {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+.link-course:hover {
+    color: inherit;
+}
+
+.card-course:hover {
+    transform: scale(1.05);
+}
+
+.card-course {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+}
