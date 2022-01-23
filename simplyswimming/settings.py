@@ -55,7 +55,7 @@ INSTALLED_APPS = [
     'course',
     'coaches',
     'contactme',
-    'appt',
+    'booking',
 ]
 
 SITE_ID = 1
