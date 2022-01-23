@@ -8,24 +8,24 @@
 <!--Topic Heading with image for this page-->
 <div class="bg-light">
   <div class="container py-2">
-      <div class="row h-100 align-items-center py-2">
-          <div class="col-lg-6">
-              <h1>{% trans "Sign Out" %}</h1>
-              <p>{% trans 'Are you sure you want to sign out?' %}</p>
-              <div class="container py-2 bg-light">
-                <form class="logout" method="POST" action="{% url 'account_logout' %}">
-                  {% csrf_token %}
-                  {% if redirect_field_value %}
-                  <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
-                  {% endif %}
-                  <button class="btn btn-dark text-center m-2" type="submit">{% trans "Sign Out" %}</button>
-                </form>
-              </div>
-          </div>
-          <div class="col-lg-6 d-none d-lg-block">
-              <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204669/Simply-Swimming/advanced-swimming1_mr0aps.png" alt="Advanced swimming class" class="img-fluid">
-          </div>
+    <div class="row h-100 align-items-center py-2">
+      <div class="col-lg-6">
+        <h1>{% trans "Sign Out" %}</h1>
+        <p>{% trans 'Are you sure you want to sign out?' %}</p>
+        <div class="container py-2 bg-light">
+          <form class="logout mt-2" method="POST" action="{% url 'account_logout' %}">
+            {% csrf_token %}
+            {% if redirect_field_value %}
+            <input type="hidden" name="{{ redirect_field_name }}" value="{{ redirect_field_value }}" />
+            {% endif %}
+            <button class="btn btn-dark text-center m-2" type="submit">{% trans "Sign Out" %}</button>
+          </form>
+        </div>
       </div>
+      <div class="col-lg-6 d-none d-lg-block">
+        <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204669/Simply-Swimming/advanced-swimming1_mr0aps.png" alt="Advanced swimming class" class="img-fluid">
+      </div>
+    </div>
   </div>
 </div>
 
