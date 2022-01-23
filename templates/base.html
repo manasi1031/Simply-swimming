@@ -56,8 +56,12 @@
                         <a class="nav-link" href="{% url 'account_logout' %}">Logout</a>
                     </li>
                     {% else %}
-                    <li><a href="% url 'account_signup' %"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-                    <li><a href="% url 'account_login' %"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_signup' %}"></span> Sign Up</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="{% url 'account_login' %}"></span> Login</a>
+                    </li>
                 </ul>
                 {% endif %}
             </div>
