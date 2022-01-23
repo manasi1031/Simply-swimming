@@ -107,6 +107,13 @@ WSGI_APPLICATION = 'simplyswimming.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/3.2/ref/settings/#databases
 
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.sqlite3',
+#         'NAME': BASE_DIR / 'db.sqlite3',
+#     }
+# }
+
 if 'DATABASE_URL' in os.environ:
     DATABASES = {
         'default': dj_database_url.parse(os.environ.get('DATABASE_URL'))
@@ -169,10 +176,10 @@ DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 # Email settings
-EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
-EMAIL_HOST = 'smtp.sendgrid.net'
-EMAIL_PORT = 587
-EMAIL_USE_TLS = True
-EMAIL_HOST_USER = 'apikey'
-EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_API_KEY')
-DEFAULT_FROM_EMAIL = 'you@domain.com'
+# EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+# EMAIL_HOST = 'smtp.sendgrid.net'
+# EMAIL_PORT = 587
+# EMAIL_USE_TLS = True
+# EMAIL_HOST_USER = 'apikey'
+# EMAIL_HOST_PASSWORD = os.environ.get('SENDGRID_API_KEY')
+# DEFAULT_FROM_EMAIL = 'you@domain.com'
