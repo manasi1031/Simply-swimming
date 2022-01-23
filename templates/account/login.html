@@ -12,7 +12,12 @@
   <div class="container py-2">
     <div class="row h-100 align-items-center py-2">
       <div class="col-lg-6">
-        <h1 class="display-4">Sign in</h1>
+        <h3>{% trans "Sign In" %}</h3>
+        <p>{% blocktrans %}Welcome back to Simply Swimming.
+          If you have not created an account yet, 
+          then <a class="link" href="{{ signup_url }}">sign up</a>
+          first.{% endblocktrans %}
+        </p>
       </div>
       <div class="col-lg-6 d-none d-lg-block">
         <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204669/Simply-Swimming/advanced-swimming1_mr0aps.png" alt="Advanced swimming class" class="img-fluid">
@@ -21,26 +26,14 @@
   </div>
 </div>
 
-<!--Login Info-->
+<!--Blank section for visual UX-->
 <div class="py-2">
-  <div class="container py25">
-    <div class="row align-items-center mb-5">
-      <div>
-        <h3>{% trans "Sign In" %}</h3>
-        <p>{% blocktrans %}Welcome back to Simply Swimming.
-          If you have not created an account yet, 
-          then <a class="link" href="{{ signup_url }}">sign up</a>
-          first.{% endblocktrans %}
-        </p>
-      </div>
-    </div>
-  </div> 
-</div>  
+</div>
 
 <!--Login form section-->
 <div class="bg-light py-2">
   <div class="container py-2 bg-light">
-    <form class="login mt-2" method="POST" action="{% url 'account_login' %}">
+    <form class="login mx-auto text-center" method="POST" action="{% url 'account_login' %}">
       {% csrf_token %}
       {{ form.as_p }}
       {% if redirect_field_value %}

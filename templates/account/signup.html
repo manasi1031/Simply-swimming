@@ -10,7 +10,7 @@
   <div class="container py-2">
     <div class="row h-100 align-items-center py-2">
       <div class="col-lg-6">
-        <h1>{% trans "Sign Up" %}</h1>
+        <h1>{% trans "Register" %}</h1>
         <p>{% blocktrans %}Already have an account? Then please 
           <a href="{{ login_url }}">sign in</a>
           .{% endblocktrans %}
@@ -30,7 +30,7 @@
 <!--Login form section-->
 <div class="bg-light py-2">
   <div class="container py-2 bg-light">
-    <form class="signup mt-2" id="signup_form" method="post" action="{% url 'account_signup' %}">
+    <form class="signup mx-auto text-center form-horizontal" id="signup_form" method="post" action="{% url 'account_signup' %}">
       {% csrf_token %}
       {{ form.as_p }}
       {% if redirect_field_value %}
