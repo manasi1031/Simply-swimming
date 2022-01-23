@@ -20,7 +20,7 @@ def contact(request):
                 'email': form.cleaned_data['email_address']
             }
             message = "\n".join(body.values())
-            messages.success(request, 'Thank you for the query. Message sent successfully!')
+            messages.success(request, 'Message sent successfully!')
 
             try:
                 send_mail(subject, message, 'simplyswimming@gmail.com', [
