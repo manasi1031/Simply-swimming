@@ -50,11 +50,11 @@
                 <div class="row no-gutters">
                     {% for coach in coach_list %}
                     <div class="col-md-2">
-                    {% if 'placeholder' in coach.profile_image.url %}
-                        <img class="img-thumbnail" src="https://res.cloudinary.com/manasi1031/image/upload/v1642371921/Simply-Swimming/coach-1_r4dw0o.jpg" alt="coach_image">
-                    {% else %}
-                        <img class="img-thumbnail" src="{{ coach.profile_image.url }}" alt="Coach Image">
-                    {% endif %}
+                        {% if "placeholder" in coach.profile_image.url %}
+                        <img class="img-thumbnail" src="https://res.cloudinary.com/manasi1031/image/upload/v1642371921/Simply-Swimming/coach-1_r4dw0o.jpg">
+                        {% else %}
+                        <img class="img-thumbnail" src="{{ coach.profile_image.url }}" alt="">
+                        {% endif %}
                     </div>
                     <div class="col-md-10">
                         <div class="card-body">
