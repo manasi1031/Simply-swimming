@@ -23,9 +23,9 @@
             <div class="img-fluid">
                 <!--add image here for class-->
                 {% if "placeholder" in course.image.url %}
-                <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204666/Simply-Swimming/kids-swimming3_xsqxu4.png">
+                <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204666/Simply-Swimming/kids-swimming3_xsqxu4.png" alt="image">
                 {% else %}
-                <img src="{{ course.image.url }}">
+                <img src="{{ course.image.url }}" alt="image" class="img-fluid">
                 {% endif %}
             </div>
         </div>
@@ -38,7 +38,7 @@
         <!--course title-->
         <h1 class="text-center">{{ course.course_name }}</h1>
         <!--course content-->
-        <div class="col-lg-8 container text-center border border-1 px-4 py-2 mb-2">
+        <div class="row text-center">
             {{ course.content | safe }}
         </div>
     </div>
