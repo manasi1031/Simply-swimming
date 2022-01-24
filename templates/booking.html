@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% load crispy_forms_tags %}
+
+{% block content %}
+<!--Messages-->
+<div class="container">
+    <div class="row">
+        <div class="col-md-8 offset-md-2">
+            {% for message in messages %}
+            <div class="alert {{ message.tags }} alert-dismissible fade show" id="msg" role="alert">
+                {{ message | safe }}
+                <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+            </div>
+            {% endfor %}
+        </div>
+    </div>
+</div>
+
+<!--Topic Heading with image-->
+<div class="bg-light">
+    <div class="container py-2">
+        <div class="row h-100 align-items-center py-2">
+            <div class="col-lg-6">
+                <h1 class="display-4">Booking request form</h1>
+            </div>
+            <div class="col-lg-6 d-none d-lg-block">
+                <img src="https://res.cloudinary.com/manasi1031/image/upload/v1642204672/Simply-Swimming/swimming-pool_zyk5x7.png" alt="Empty Swimming Pool" class="img-fluid">
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--Booking Info-->
+<div class="py-2">
+    <div class="container py25">
+        <div class="row align-items-center mb-5">
+            <div>
+                <h4 class="text-center mt-2">Send a request to book a specific course, we will get back to you as soon as possible!</h4>
+            </div>
+        </div>
+    </div> 
+</div>   
+
+<!--Booking form-->
+<div class="bg-light py-2">
+    <div class="container py-2 bg-light">
+        <form id="form" method="post" class="mt-2">
+            {{ form|crispy }}
+            {% csrf_token %}
+            <div class="text-center">
+                <button data-toggle="modal" data-target="message" type="submit" class="btn btn-dark text-center m-2">
+                    Submit
+                </button>
+            </div>
+        </form>
+    </div>
+</div>
+
+{%endblock%}
