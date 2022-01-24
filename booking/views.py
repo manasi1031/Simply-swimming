@@ -18,7 +18,6 @@ def booking(request):
                 'first_name': form.cleaned_data['first_name'],
                 'last_name': form.cleaned_data['last_name'],
                 'email': form.cleaned_data['email_address'],
-                'telephone': form.cleaned_data['telephone'],
                 'requested_date': form.cleaned_data['requested_date'],
                 'course': form.cleaned_data['course'],
                 'coach': form.cleaned_data['coach'],
