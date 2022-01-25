@@ -32,6 +32,7 @@ This website can not be used as a template for a business since it's a project f
         - [Wireframes](#wireframes)
         - [Images](#images)
 - [Features](#features)
+    - [Database Structure](#database-structure)
 - [Technologies Used](#technologies-used)
 - [Testing](#testing)
     - [Functionality Testing](#functionality-testing)
@@ -122,9 +123,9 @@ Balsamiq has been used to create wireframes for this project.
 
 - [Wireframes overview pdf file](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/overview-wireframe.pdf)
 
-- [Laptop & Ipad view of Home page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/home-laptop-view.png)
+- [Laptop view of Home page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/home-laptop-view.png)
 
-- [Laptop & Ipad view of About page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-laptop-view.png)
+- [Laptop view of About page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-laptop-view.png)
 
 #### Images
 
@@ -141,12 +142,58 @@ The website consists of 6 pages that are accessible at the moment.
 
 #### The website has below features:
 
-TO ADD
+NAVIGATION BAR
+- The navigation bar is located on the top of each page and is fixed in location.
+- The company name is the fixed logo and has a hyperlink to the home page.
+- The navbar is fully responsive of different screen sizes.
+- A confirmation message is on the screen when the user logs in or logs out. This disappears after 3 seconds automatically.
+
+[Navbar generic user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-general.png)
+
+[Navbar small screen view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-small-screen-view.png)
+
+[Navbar admin or signed in user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-signed-in-view.png)
+
+COURSES SECTION
+- On the home page, the courses section is just a basic overview of an image and a brief line of what it does.
+- When you hover the mouse over a specific course, it will highlight itself and enlarge slightly to show that you prefer to view this on.
+- When you click on the selected course, it takes you to a detailed page about that specific course.
+- Moving forward there will be an option to make a new booking or view existing booking (Currently not setup).
+
+[Courses Overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-overview.png)
+
+[Courses Detailed View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-detailed-view.png)
+
+ABOUT US PAGE
+- This page tell more information about the founder of the website and how the company was created.
+- This page will also have a coaches section that will show the team that will be teaching or training people (Currently not setup).
+
+[About Us View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-us-feature.png)
+
+FOOTER
+- The footer is fixed for all pages
+- This gives the information about the location, contact number and e-mail address for the company.
+- Apart from this, it also specify the hours of operation.
+
+[Footer View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/footer.png)
+
+CONTACT US PAGE
+
+
 
 #### Features Left to Implement and will be in future versions:
 
 - Make payments online.
 - A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking. 
+
+
+---
+### Database Structure
+---
+
+To Add
+
+[Back to Table of Contents](#table-of-contents)
 
 -------
 ### Technologies Used
@@ -154,15 +201,15 @@ TO ADD
 
 Languages used:
 
-- HTML5:  Used to write the structure of the website.
-
-- CCS3: Used to style the website.
-
-- Javascript: Used to allow users to interact with web pages.
+- Programming Languages:
+    - HTML5:  Used to write the structure of the website.
+    - CCS3 & Bootstrap: Used to style the website.
+    - Javascript: Used to allow users to interact with web pages.
+    - Python and Django framework
 
 - Google fonts: Used as a font resource.
 
-- Font Awesome: Used as an icon library for social links.
+- Database framework: Postgres
 
 - Balsamiq: Used to create wireframes.
 
