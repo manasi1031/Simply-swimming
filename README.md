@@ -114,18 +114,21 @@ Colors chosen are either direct colors or in the palette shades to give a better
 - HTML Background: #D2CF43
 - Font: #000202
 
-[Click here to view Color Palette](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/color-pallette.pdf) 
+[Click here to view Color Palette](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/color-palette.pdf) 
 
 #### Wireframes
 
 Balsamiq has been used to create wireframes for this project.
 
-- [Wireframes overview pdf file]()
-TO ADD MORE
+- [Wireframes overview pdf file](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/overview-wireframe.pdf)
+
+- [Laptop & Ipad view of Home page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/home-laptop-view.png)
+
+- [Laptop & Ipad view of About page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-laptop-view.png)
 
 #### Images
 
-I have mentioned in detail regarding images in the credits section. 
+Images were sourced from pixabay.com and credit section has also been updated accordingly.
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -134,7 +137,7 @@ I have mentioned in detail regarding images in the credits section.
 ### Features
 ---
 
-The website consists of 6 pages. Five are accessible from a navigation menu and one is a 404 error page. 
+The website consists of 6 pages that are accessible at the moment.
 
 #### The website has below features:
 
