@@ -2,8 +2,6 @@
 ---------
 # Simply Swimming
 
-![Mockup Image]()
-
 ## Purpose
 ---
 This site has been designed as a Full-Stack site based on business logic used to control a centrally-owned dataset. This is the fourth milestone project in my academic schedule with the Code Institute. 
@@ -11,9 +9,11 @@ This site has been designed as a Full-Stack site based on business logic used to
 ## Information about project: 
 ---
 
-TO ADD HERE
+Simply Swimming is a company that offers swiming lessons / classes to different age groups and can cater to different requirements. They have the trained staff who are also offer bespoke services.
 
-## [View live website here]()
+This website can not be used as a template for a business since it's a project for educational purposes.
+
+## [View live website here](https://simplyswimming.herokuapp.com/)
 
 ---------
 
@@ -49,19 +49,19 @@ TO ADD HERE
 ---
 ### Goals
 ---
-TO ADD
+The main reason to create this website is people to be aware of the services we offer and where we are located.
 
 #### Vision 
 
-TO ADD
+To be the best swimming school in Ockendon while offering services to cater to all groups of people.
 
 #### Aim
 
-TO ADD
+My aim is to provide data relevant to the user story and enhance the overall visual experience.
 
 #### Target Audience 
 
-TO ADD
+All types starting from babies to adults.
 
 #### User Stories
 
@@ -70,21 +70,21 @@ TO ADD
 - I want to know where the swimming class is located.
 - I want to know the hours that the location is open.
 - I want to see what kind of courses the swimming class offers.
-- I want to be able to book an appointment. 
-- I want to be able to cancel an appointment. 
+- I want to be able to make a booking.
+- I want to be able to cancel an booking. 
 - I want to know a bit more about the company / trainers. 
 - I want to be able to contact the company with random questions. 
-- I want to get a confirmation email with my appointment time. 
+- I want to get a confirmation email with my booking time. 
 
 ##### Site Owner:
 
 - I want to show where the swimming class is located. 
 - I want to let people see the courses we offer.
-- I want to make it easy for customer to make an appointment. 
+- I want to make it easy for customer to make an booking. 
 - I want to get an email when someone makes a new booking. 
-- I want to be able to confirm appointments.
-- I want to be able to cancel appointments.
-- I want to be able to change an appointment date. 
+- I want to be able to confirm bookings.
+- I want to be able to cancel bookings.
+- I want to be able to change an booking date. 
 - I want to have a clear overview of the customers details. 
 - I want to be able to get email from customers through a contact form with any random questions.
 
@@ -96,24 +96,25 @@ TO ADD
 
 #### Design
 
-TO ADD
+The website is designed to be easy and user-friendy on all type of devices. On desktop, tablet or mobile device there should be no difference for a user to have a fantastic experience. All parts are designed to achieve maximum user satisfaction. 
 
 #### Typography
 
-TO ADD
+The below 2 font families have been used for my website mainly:
+
+- font-family: 'Open Sans', sans-serif; 
 
 #### Color scheme
 
 I used the palette maker from the [Coolors](https://coolors.co/image-picker) website based on the hero image chosen for the index.html page. 
 
-This palette has been derived from the hero image and a [visual representation]()
+This palette has been derived from the hero image and a [visual representation](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/collage.png)
 
 Colors chosen are either direct colors or in the palette shades to give a better effect as below: 
-- HTML Background: #
-- HTML Body: #
-- All Headings: #
+- HTML Background: #D2CF43
+- Font: #000202
 
-[Click here to view Color Palette]() 
+[Click here to view Color Palette](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/color-pallette.pdf) 
 
 #### Wireframes
 
