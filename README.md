@@ -89,8 +89,6 @@ All types starting from babies to adults.
 - I want to have a clear overview of the customers details. 
 - I want to be able to get email from customers through a contact form with any random questions.
 
-I planned the project on a kanban board that can be viewed on this [link](https://github.com/manasi1031/Simply-swimming/projects/1)
-
 [Back to Table of Contents](#table-of-contents)
 
 ----------
@@ -150,11 +148,11 @@ NAVIGATION BAR
 - The navbar is fully responsive of different screen sizes.
 - A confirmation message is on the screen when the user logs in or logs out. This disappears after 3 seconds automatically.
 
-[Navbar generic user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-general.png)
+![Navbar generic user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-general.png)
 
-[Navbar small screen view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-small-screen-view.png)
+![Navbar small screen view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-small-screen-view.png)
 
-[Navbar admin or signed in user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-signed-in-view.png)
+![Navbar admin or signed in user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-signed-in-view.png)
 
 COURSES SECTION
 - On the home page, the courses section is just a basic overview of an image and a brief line of what it does.
@@ -162,42 +160,42 @@ COURSES SECTION
 - When you click on the selected course, it takes you to a detailed page about that specific course.
 - Moving forward there will be an option to make a new booking or view existing booking (Currently not setup).
 
-[Courses Overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-overview.png)
+![Courses Overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-overview.png)
 
-[Courses Detailed View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-detailed-view.png)
+![Courses Detailed View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-detailed-view.png)
 
 ABOUT US PAGE
 - This page tell more information about the founder of the website and how the company was created.
 - This page will also have a coaches section that will show the team that will be teaching or training people (Currently not setup).
 
-[About Us View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-us-feature.png)
+![About Us View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-us-feature.png)
 
 FOOTER
 - The footer is fixed for all pages
 - This gives the information about the location, contact number and e-mail address for the company.
 - Apart from this, it also specify the hours of operation.
 
-[Footer View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/footer.png)
+![Footer View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/footer.png)
 
 CONTACT US PAGE
 - The page gives a form for people to input their queries and sends to the website e-mail address to look into. 
 
-[Contact page form](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/contact-us-feature.png)
+![Contact page form](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/contact-us-feature.png)
 
 LOGIN PAGE
 - This page is for existing members to login in by adding their username and password to view their profile and bookings.
 
-[Login Page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-up-feature.png)
+![Login Page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-up-feature.png)
 
 SIGN UP PAGE
 -  This is for new users to register themselves and asks for username, email address (optional) along with password and re-enter password for validation.
 
-[Sign up page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/register-feature.png)
+![Sign up page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/register-feature.png)
 
 SIGN OUT PAGE
 - This page prompts you to log out by clicking on a button again and exists the member or user profile.
 
-[Sign out page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-in-feature.png)
+![Sign out page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-in-feature.png)
 
 
 #### Features Left to Implement and will be in future versions:
@@ -216,7 +214,7 @@ SIGN OUT PAGE
 
 COURSE MODEL
 
-[Course Model](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/course-model.png)
+![Course Model](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/course-model.png)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -273,7 +271,8 @@ Site was tested in various devices on the Google chrome DevTools, however apart 
 
 #### User Testing Stories:
 
-TO ADD
+I planned the project on a kanban board with user stories that can be viewed on this [link](https://github.com/manasi1031/Simply-swimming/projects/1)
+There are a few that are still work in progress and few that are planned for future versions.
 
 #### Code Validation:
 
@@ -293,15 +292,15 @@ LIGHTHOUSE
 
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
 
-[Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.jpg)
+![Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.jpg)
 
 COVERAGE
 
 I also used the coverage report and have taken visuals of the overall status on my apps:
 
-[Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part1.png)
+![Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part1.png)
 
-[Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part2.png)
+![Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part2.png)
 
 
 [Back to Table of Contents](#table-of-contents)
