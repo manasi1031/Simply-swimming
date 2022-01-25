@@ -248,8 +248,6 @@ Languages used:
 
 - CSS Validator: Used for validating CSS code.
 
-- [Techsini website](https://techsini.com/) to create a visual mockup of the site.
-
 - [PNG to JPG](https://png2jpg.com/) to convert png files to jpg.
 
 - [Favicon Generator](https://favicon.io/favicon-generator/) to generate favicon for website.
@@ -289,19 +287,18 @@ TO ADD
 #### Performance Testing:
 
 LIGHTHOUSE
-
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
 
-![Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.jpg)
+![Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.JPG)
 
 COVERAGE
-
 I also used the coverage report and have taken visuals of the overall status on my apps:
 
 ![Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part1.png)
 
 ![Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part2.png)
 
+![Manual Testing result on Gitpod terminal](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/manual-testing-result.png)
 
 [Back to Table of Contents](#table-of-contents)
 
