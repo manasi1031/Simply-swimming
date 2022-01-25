@@ -1,8 +1,7 @@
+"""Coaches model in Django Admin panel"""
 from django.contrib import admin
 from django_summernote.admin import SummernoteModelAdmin
 from .models import Coach
-
-# Register your models here.
 
 
 @admin.register(Coach)

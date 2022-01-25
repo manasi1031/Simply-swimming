@@ -212,7 +212,9 @@ SIGN OUT PAGE
 ### Database Structure
 ---
 
-To Add
+COURSE MODEL
+
+[Course Model](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/course-model.png)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -230,7 +232,7 @@ Languages used:
 
 - Google fonts: Used as a font resource.
 
-- Database framework: Postgres
+- Database framework: Postgres / Sql lite
 
 - Balsamiq: Used to create wireframes.
 
@@ -249,8 +251,6 @@ Languages used:
 - [Techsini website](https://techsini.com/) to create a visual mockup of the site.
 
 - [PNG to JPG](https://png2jpg.com/) to convert png files to jpg.
-
-- [Image Resizer](https://resizeimage.net/) to resize images to fit screen.
 
 - [Favicon Generator](https://favicon.io/favicon-generator/) to generate favicon for website.
 
@@ -275,10 +275,11 @@ TO ADD
 
 #### Code Validation:
 
-At the and of the project I used the below websites to validate the codes:
+At the and of the project I used the below websites to validate the codes and they all tested fine.
 - [W3C CSS Validator](https://jigsaw.w3.org/css-validator/) to validate CSS.
 - [W3C Html Validator](https://validator.w3.org/) to test HTML.
-- [JavaScript Validator](https://jshint.com/) to test javascript.
+- [PEP8 online tool](http://pep8online.com/) to test python code.
+    - Most of the pylint was rectified, however the "too long line" errors were ignored to avoid the code breaking.
 
 #### Issues found during deployment:
 

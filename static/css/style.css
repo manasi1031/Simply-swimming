@@ -14,7 +14,8 @@ body {
 .hero-image {
     width: 100%;
     height: auto;
-    background: cover center no-repeat;
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 /* Course in index.html CSS specific */
