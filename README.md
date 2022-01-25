@@ -89,6 +89,8 @@ All types starting from babies to adults.
 - I want to have a clear overview of the customers details. 
 - I want to be able to get email from customers through a contact form with any random questions.
 
+I planned the project on a kanban board that can be viewed on this [link](https://github.com/manasi1031/Simply-swimming/projects/1)
+
 [Back to Table of Contents](#table-of-contents)
 
 ----------
@@ -287,9 +289,20 @@ TO ADD
 
 #### Performance Testing:
 
+LIGHTHOUSE
+
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
 
-TO ADD
+[Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.jpg)
+
+COVERAGE
+
+I also used the coverage report and have taken visuals of the overall status on my apps:
+
+[Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part1.png)
+
+[Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part2.png)
+
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -345,9 +358,13 @@ Setting up database in deployment
 ### Credits
 -----
 
-#### Content
+#### Content & Credit
 
-TO ADD
+- I did refer to the "Blog and Django" sample project and lessons from Code institute to follow a step by step approach to this project
+
+- I also refered to W3schools website for referring to Bootstrap usage - https://www.w3schools.com/bootstrap/bootstrap_examples.asp for changing the navbar options to right for login, register and logout pages.
+
+- Original content ideas and related data for the swimming website taken from https://theswimschool.co.uk/ 
 
 #### Media
 
