@@ -50,7 +50,6 @@ INSTALLED_APPS = [
     'cloudinary',
     'django_summernote',
     'pylint_django',
-    'sendgrid',
     'crispy_forms',
     'course',
     'coaches',
