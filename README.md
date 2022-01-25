@@ -178,11 +178,32 @@ FOOTER
 [Footer View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/footer.png)
 
 CONTACT US PAGE
+- The page gives a form for people to input their queries and sends to the website e-mail address to look into. 
 
+[Contact page form](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/contact-us-feature.png)
+
+LOGIN PAGE
+- This page is for existing members to login in by adding their username and password to view their profile and bookings.
+
+[Login Page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-up-feature.png)
+
+SIGN UP PAGE
+-  This is for new users to register themselves and asks for username, email address (optional) along with password and re-enter password for validation.
+
+[Sign up page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/register-feature.png)
+
+SIGN OUT PAGE
+- This page prompts you to log out by clicking on a button again and exists the member or user profile.
+
+[Sign out page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-in-feature.png)
 
 
 #### Features Left to Implement and will be in future versions:
 
+- Coaches list on about page (Wrote code but was unable to fix error).
+- Booking form page.
+- Online member profiles to view.
+- Make bookings or changes to existing user bookings.
 - Make payments online.
 - A Calendar on the create booking page for logged in users which shows which days are booked and which are available for booking. 
 
