@@ -282,7 +282,27 @@ At the and of the project I used the below websites to validate the codes and th
 
 #### Issues found during deployment:
 
-TO ADD
+1. Testing database error
+
+![testing database error](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/testing-database-error.png)
+
+I was having the above error when I was testing my apps and after checking with Slack overflow solutions I still did not get this working. Post which i had a chat with tutor support and I was guided to the fact that I did not have permission to create a database with the way my settings were.
+
+So whenever I had to get a testing done, I would go to env.py and comment out the line with the database settings and it worked. See the commented out section only when I had to do the tests.
+
+![testing database error](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/env.py-commentout.png)
+
+2. Message alert feature not able to discard on its own
+
+3. Courses view error on index. html
+
+4. Courses image not veiwing error on courses_detail view
+
+5. Coaches data missing error
+
+6. Heroku depoloyed site CSS error
+
+7. Heroku site deployment error
 
 #### Performance Testing:
 
