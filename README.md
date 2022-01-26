@@ -297,17 +297,69 @@ So whenever I had to get a testing done, I would go to env.py and comment out th
 
 2. Message alert feature not able to discard on its own
 
-When I added the message alerts to the sign in, sign out, log out and contact forms, the alerts remained for the whole duration unless I clicked it to close. 
+![Message alert feature](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/message-alert-feature.png)
+
+When I added the message alerts to the sign in, sign out, log out and contact forms, the alerts remained for the whole duration unless I clicked it to close. I had to add in javascript code to get this sorted and I had to refer back to the code Institute "messages" section in the "I think therefore I blog" section.
+
+![Messages javascript](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/messages-javascript.png)
 
 3. Courses view error on index. html
 
+![Courses view error](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courses-view-error.png)
+
+I had the above error that after using bootstrap the view on the page was still not aligned.
+I could not find a bootstrap solution to this and added CSS styles as below:
+
+- .link-course {
+    text-decoration: none;
+    color: inherit;
+    text-align: center;
+}
+
+- .link-course:hover {
+    color: inherit;
+}
+
+- .card-course:hover {
+    transform: scale(1.05);
+}
+
+- .card-course {
+    transition: transform 0.2s ease;
+    box-shadow: 0 4px 6px 0 rgba(22, 22, 26, 0.18);
+    border-radius: 0;
+    border: 0;
+    margin-bottom: 1.5em;
+}
+
 4. Courses image not veiwing error on courses_detail view
+
+![Courses overview](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courses-overview.png)
+
+Once the courses app was working, the main view on the index.html was working but when I tried to view an individual course, the image was not showing up.
+I used the below python code in courses.html and the error was rectified:
+
+![Courses image pythoncode](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courses-image-pythoncode.png)
 
 5. Coaches data missing error
 
+![Coaches data missing error](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/coaches-data-missing-error.png)
+
+I created the coaches app but the above error still shows due to the fact the the error on the console was "The coach model does not contain any objects"
+I tried looking for different options to help me online but could not resole this and hence left this for as a commented out section for now.
+On the website it states details coming soon as a future feature.
+
 6. Heroku depoloyed site CSS error
 
+![Heroku deployed site CSS error](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/heroku-deployedsite-css-error.png)
+
+The above error resulted from the fact that my CSS had a line in base.html header and I had used this - type="text/css".
+Once I removed this, changed debug to "False" and added X_FRAME_OPTIONS = 'SAMEORIGIN' in setting.py, this worked. the error was resolved.
+
 7. Heroku site deployment error
+
+I did not take a visaul of the picture, however it mentioned that something was wrong and I could not deploy the site correctly. This resulted from the fact that my booking app with sendgrid was not setup correctly.
+I have commented out the booking app and sendgrid code for now to get this up and running as I was unable to resolve prior to submission.
 
 #### Performance Testing:
 
