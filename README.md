@@ -187,7 +187,7 @@ CONTACT US PAGE
 LOGIN PAGE
 - This page is for existing members to login in by adding their username and password to view their profile and bookings.
 
-![Login Page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/sign-up-feature.png)
+![Login Page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/sign-in-feature.png)
 
 SIGN UP PAGE
 -  This is for new users to register themselves and asks for username, email address (optional) along with password and re-enter password for validation.
@@ -455,8 +455,16 @@ Last but not the least, I would like to thank [Code Institute](https://codeinsti
 
 ## Screen Shots
 
-![Home page Laptop view Screenshot]()
+![Home page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/single-view-screenshot.png)
 
+![About page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/about-page.png)
 
+![Contact page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/contact-page.png)
 
+![Courses view individual page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courseview-page.png)
 
+![Login page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/accounts-login-page.png)
+
+![Logout page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/accounts-logout-page.png)
+
+![Register page view Screenshot](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/accounts-signup-page.png)
