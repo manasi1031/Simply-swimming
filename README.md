@@ -2,6 +2,8 @@
 ---------
 # Simply Swimming
 
+![Single Mockup Image](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/single-view-screenshot.png)
+
 ## Purpose
 ---
 This site has been designed as a Full-Stack site based on business logic used to control a centrally-owned dataset. This is the fourth milestone project in my academic schedule with the Code Institute. 
@@ -115,17 +117,17 @@ Colors chosen are either direct colors or in the palette shades to give a better
 - HTML Background: #D2CF43
 - Font: #000202
 
-[Click here to view Color Palette](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/color-palette.pdf) 
+[Click here to view Color Palette](https://github.com/manasi1031/Simply-swimming/blob/main/media/documents/color-palette.pdf) 
 
 #### Wireframes
 
 Balsamiq has been used to create wireframes for this project.
 
-- [Wireframes overview pdf file](https://github.com/manasi1031/Simply-swimming/blob/master/media/documents/overview-wireframe.pdf)
+- [Wireframes overview pdf file](https://github.com/manasi1031/Simply-swimming/blob/main/media/documents/overview-wireframe.pdf)
 
-- [Laptop view of Home page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/home-laptop-view.png)
+- [Laptop view of Home page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/home-laptop-view.png)
 
-- [Laptop view of About page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-laptop-view.png)
+- [Laptop view of About page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/about-laptop-view.png)
 
 #### Images
 
@@ -148,11 +150,11 @@ NAVIGATION BAR
 - The navbar is fully responsive of different screen sizes.
 - A confirmation message is on the screen when the user logs in or logs out. This disappears after 3 seconds automatically.
 
-![Navbar generic user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-general.png)
+![Navbar generic user view](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/navbar-general.png)
 
-![Navbar small screen view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-small-screen-view.png)
+![Navbar small screen view](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/navbar-small-screen-view.png)
 
-![Navbar admin or signed in user view](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/navbar-signed-in-view.png)
+![Navbar admin or signed in user view](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/navbar-signed-in-view.png)
 
 COURSES SECTION
 - On the home page, the courses section is just a basic overview of an image and a brief line of what it does.
@@ -160,42 +162,42 @@ COURSES SECTION
 - When you click on the selected course, it takes you to a detailed page about that specific course.
 - Moving forward there will be an option to make a new booking or view existing booking (Currently not setup).
 
-![Courses Overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-overview.png)
+![Courses Overview](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courses-overview.png)
 
-![Courses Detailed View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/courses-detailed-view.png)
+![Courses Detailed View](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/courses-detailed-view.png)
 
 ABOUT US PAGE
 - This page tell more information about the founder of the website and how the company was created.
 - This page will also have a coaches section that will show the team that will be teaching or training people (Currently not setup).
 
-![About Us View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/about-us-feature.png)
+![About Us View](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/about-us-feature.png)
 
 FOOTER
 - The footer is fixed for all pages
 - This gives the information about the location, contact number and e-mail address for the company.
 - Apart from this, it also specify the hours of operation.
 
-![Footer View](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/footer.png)
+![Footer View](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/footer.png)
 
 CONTACT US PAGE
 - The page gives a form for people to input their queries and sends to the website e-mail address to look into. 
 
-![Contact page form](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/contact-us-feature.png)
+![Contact page form](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/contact-us-feature.png)
 
 LOGIN PAGE
 - This page is for existing members to login in by adding their username and password to view their profile and bookings.
 
-![Login Page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-up-feature.png)
+![Login Page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/sign-up-feature.png)
 
 SIGN UP PAGE
 -  This is for new users to register themselves and asks for username, email address (optional) along with password and re-enter password for validation.
 
-![Sign up page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/register-feature.png)
+![Sign up page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/register-feature.png)
 
 SIGN OUT PAGE
 - This page prompts you to log out by clicking on a button again and exists the member or user profile.
 
-![Sign out page](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/sign-in-feature.png)
+![Sign out page](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/sign-in-feature.png)
 
 
 #### Features Left to Implement and will be in future versions:
@@ -214,7 +216,7 @@ SIGN OUT PAGE
 
 COURSE MODEL
 
-![Course Model](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/course-model.png)
+![Course Model](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/course-model.png)
 
 [Back to Table of Contents](#table-of-contents)
 
@@ -284,15 +286,18 @@ At the and of the project I used the below websites to validate the codes and th
 
 1. Testing database error
 
-![testing database error](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/testing-database-error.png)
+![testing-database-error](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/testing-database-error.png)
 
 I was having the above error when I was testing my apps and after checking with Slack overflow solutions I still did not get this working. Post which i had a chat with tutor support and I was guided to the fact that I did not have permission to create a database with the way my settings were.
 
 So whenever I had to get a testing done, I would go to env.py and comment out the line with the database settings and it worked. See the commented out section only when I had to do the tests.
 
-![testing database error](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/env.py-commentout.png)
+![env.py-commentout](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/env.py-commentout.png)
+
 
 2. Message alert feature not able to discard on its own
+
+When I added the message alerts to the sign in, sign out, log out and contact forms, the alerts remained for the whole duration unless I clicked it to close. 
 
 3. Courses view error on index. html
 
@@ -309,16 +314,16 @@ So whenever I had to get a testing done, I would go to env.py and comment out th
 LIGHTHOUSE
 I used [Lighthouse](https://developers.google.com/web/tools/lighthouse/) tool for testing the performance of my website.
 
-![Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/lighthouse-overview.JPG)
+![Lighthouse overview](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/lighthouse-overview.JPG)
 
 COVERAGE
 I also used the coverage report and have taken visuals of the overall status on my apps:
 
-![Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part1.png)
+![Coverage report part 1](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/coverage-report-part1.png)
 
-![Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/coverage-report-part2.png)
+![Coverage report part 2](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/coverage-report-part2.png)
 
-![Manual Testing result on Gitpod terminal](https://github.com/manasi1031/Simply-swimming/blob/master/media/images/manual-testing-result.png)
+![Manual Testing result on Gitpod terminal](https://github.com/manasi1031/Simply-swimming/blob/main/media/images/manual-testing-result.png)
 
 [Back to Table of Contents](#table-of-contents)
 
